@@ -1,0 +1,16 @@
+# Alles ignorieren
+*
+
+# Nur diese Ordner erlauben
+!.gitignore
+!config/
+!config/**
+
+!mods/
+!mods/**
+
+!resourcepacks/
+!resourcepacks/**
+
+!shaderpacks/
+!shaderpacks/**
