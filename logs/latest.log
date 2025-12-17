@@ -1,5 +1,5 @@
-[15:05:26] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.3
-[15:05:26] [main/INFO]: Loading 113 mods:
+[15:23:20] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.3
+[15:23:21] [main/INFO]: Loading 113 mods:
 	- appleskin 2.5.1+mc1.20
 	   \-- cloth-config 11.0.99
 	        \-- cloth-basic-math 0.6.1
@@ -136,584 +136,372 @@
 	- sodium 0.5.13+mc1.20.1
 	- tectonic 3.0.17
 	- terralith 2.5.4
-[15:05:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/einma/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[15:05:27] [main/INFO]: Compatibility level set to JAVA_17
-[15:05:27] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
-[15:05:28] [main/WARN]: Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
-[15:05:28] [main/WARN]: @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
-[15:05:28] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[15:05:28] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[15:05:28] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[15:05:28] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[15:05:28] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
-[15:05:28] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[15:05:28] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[15:05:28] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[15:05:28] [main/WARN]: Error loading class: dev/ftb/mods/ftbchunks/client/gui/LargeMapScreen (java.lang.ClassNotFoundException: dev/ftb/mods/ftbchunks/client/gui/LargeMapScreen)
-[15:05:28] [main/WARN]: @Mixin target dev.ftb.mods.ftbchunks.client.gui.LargeMapScreen was not found create.mixins.json:compat.ftbchunks.LargeMapScreenAccessor from mod create
-[15:05:28] [main/WARN]: Error loading class: dev/ftb/mods/ftbchunks/client/gui/RegionMapPanel (java.lang.ClassNotFoundException: dev/ftb/mods/ftbchunks/client/gui/RegionMapPanel)
-[15:05:28] [main/WARN]: @Mixin target dev.ftb.mods.ftbchunks.client.gui.RegionMapPanel was not found create.mixins.json:compat.ftbchunks.RegionMapPanelAccessor from mod create
-[15:05:28] [main/WARN]: Error loading class: xaero/map/gui/GuiMap (java.lang.ClassNotFoundException: xaero/map/gui/GuiMap)
-[15:05:28] [main/WARN]: @Mixin target xaero.map.gui.GuiMap was not found create.mixins.json:compat.xaeros.XaeroFullscreenMapAccessor from mod create
-[15:05:28] [main/WARN]: Error loading class: xaero/map/gui/GuiMap (java.lang.ClassNotFoundException: xaero/map/gui/GuiMap)
-[15:05:28] [main/WARN]: @Mixin target xaero.map.gui.GuiMap was not found create.mixins.json:compat.xaeros.XaeroFullscreenMapMixin from mod create
-[15:05:28] [main/INFO]: Searching for graphics cards...
-[15:05:28] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 5070', adapterType=0x0000031B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6d8eaa80a18aada4\nvoglv64.dll', openglIcdVersion=32.0.15.9144}
-[15:05:28] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
-[15:05:28] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
-[15:05:29] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[15:05:29] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[15:05:34] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 171 milliseconds
-[15:05:36] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:05:37] [Render thread/INFO]: Setting user: einmalmaikii
-[15:05:37] [Render thread/INFO]: Create 6.0.8.1 initializing!
-[15:05:40] [Render thread/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
-[15:05:40] [Render thread/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
-[15:05:40] [Render thread/INFO]: Initializing Distant Horizons client, firing DhApiBeforeDhInitEvent...
-[15:05:40] [Render thread/INFO]: Running library validation...
-[15:05:40] [Render thread/INFO]: Garbage collectors: [G1 Young Generation, G1 Old Generation]
-[15:05:40] [Render thread/WARN]: Distant Horizons: G1 Garbage collector detected. 
+[15:23:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/einma/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[15:23:21] [main/INFO]: Compatibility level set to JAVA_17
+[15:23:22] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
+[15:23:22] [main/WARN]: Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
+[15:23:22] [main/WARN]: @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
+[15:23:22] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[15:23:22] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[15:23:22] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[15:23:22] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[15:23:22] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[15:23:22] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[15:23:22] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[15:23:22] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[15:23:22] [main/WARN]: Error loading class: dev/ftb/mods/ftbchunks/client/gui/LargeMapScreen (java.lang.ClassNotFoundException: dev/ftb/mods/ftbchunks/client/gui/LargeMapScreen)
+[15:23:22] [main/WARN]: @Mixin target dev.ftb.mods.ftbchunks.client.gui.LargeMapScreen was not found create.mixins.json:compat.ftbchunks.LargeMapScreenAccessor from mod create
+[15:23:22] [main/WARN]: Error loading class: dev/ftb/mods/ftbchunks/client/gui/RegionMapPanel (java.lang.ClassNotFoundException: dev/ftb/mods/ftbchunks/client/gui/RegionMapPanel)
+[15:23:22] [main/WARN]: @Mixin target dev.ftb.mods.ftbchunks.client.gui.RegionMapPanel was not found create.mixins.json:compat.ftbchunks.RegionMapPanelAccessor from mod create
+[15:23:22] [main/WARN]: Error loading class: xaero/map/gui/GuiMap (java.lang.ClassNotFoundException: xaero/map/gui/GuiMap)
+[15:23:22] [main/WARN]: @Mixin target xaero.map.gui.GuiMap was not found create.mixins.json:compat.xaeros.XaeroFullscreenMapAccessor from mod create
+[15:23:22] [main/WARN]: Error loading class: xaero/map/gui/GuiMap (java.lang.ClassNotFoundException: xaero/map/gui/GuiMap)
+[15:23:22] [main/WARN]: @Mixin target xaero.map.gui.GuiMap was not found create.mixins.json:compat.xaeros.XaeroFullscreenMapMixin from mod create
+[15:23:23] [main/INFO]: Searching for graphics cards...
+[15:23:23] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 5070', adapterType=0x0000031B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6d8eaa80a18aada4\nvoglv64.dll', openglIcdVersion=32.0.15.9144}
+[15:23:23] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
+[15:23:23] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[15:23:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[15:23:24] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[15:23:29] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 163 milliseconds
+[15:23:31] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:23:32] [Render thread/INFO]: Setting user: einmalmaikii
+[15:23:32] [Render thread/INFO]: Create 6.0.8.1 initializing!
+[15:23:35] [Render thread/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
+[15:23:35] [Render thread/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
+[15:23:35] [Render thread/INFO]: Initializing Distant Horizons client, firing DhApiBeforeDhInitEvent...
+[15:23:35] [Render thread/INFO]: Running library validation...
+[15:23:35] [Render thread/INFO]: Garbage collectors: [G1 Young Generation, G1 Old Generation]
+[15:23:35] [Render thread/WARN]: Distant Horizons: G1 Garbage collector detected. 
 This garbage collector can cause FPS stuttering. 
 It's recommended to use a concurrent garbage collector 
 like ZGC (Java 21+) or Shenandoah (Java 8 through 17) for a smoother experience. 
 
-[15:05:40] [Render thread/INFO]: Distant Horizons, Version: 2.4.2-b
-[15:05:40] [Render thread/INFO]: Registering Fabric Client Events
-[15:05:41] [Render thread/INFO]: Registering Fabric Server Events
-[15:05:41] [Render thread/INFO]: Registered mod compatibility accessor for: [Sodium-Fabric].
-[15:05:41] [Render thread/INFO]: Skipping mod compatibility accessor for: [starlight]
-[15:05:41] [Render thread/INFO]: Skipping mod compatibility accessor for: [optifine]
-[15:05:41] [Render thread/INFO]: Skipping mod compatibility accessor for: [bclib]
-[15:05:41] [Render thread/INFO]: Skipping mod compatibility accessor for: [c2me]
-[15:05:41] [Render thread/INFO]: Registered mod compatibility accessor for: [iris].
-[15:05:41] [Render thread/INFO]: Initialising config for [DistantHorizons]
-[15:05:41] [Render thread/INFO]: [DistantHorizons] Config initialised
-[15:05:41] [Render thread/INFO]: Applying config to loggers
-[15:05:41] [Render thread/INFO]: Distant Horizons client Initialized.
-[15:05:41] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
-[15:05:41] [Render thread/INFO]: Sending ConfigManager...
-[15:05:41] [Render thread/INFO]: Sending ConfigManager took 1.146 ms
-[15:05:41] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
-[15:05:41] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
-[15:05:41] [Render thread/INFO]: Queuing DH event binding...
-[15:05:41] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] Cached update file detected, using that!
-[15:05:41] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
-[15:05:42] [Render thread/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
-[15:05:42] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
-[15:05:42] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 5070/PCIe/SSE2
-[15:05:42] [Render thread/INFO]: OpenGL Version: 3.2.0 NVIDIA 591.44
-[15:05:42] [Render thread/INFO]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
-[15:05:42] [Render thread/INFO]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threadedcommand submission
-[15:05:42] [Render thread/INFO]: Debug functionality is disabled.
-[15:05:42] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
-[15:05:42] [Render thread/INFO]: Created 157 recipes which will be injected into the game
-[15:05:42] [Render thread/INFO]: Created 0 tags which will be injected into the game
-[15:05:42] [Render thread/INFO]: Hardware information:
-[15:05:42] [Render thread/INFO]: CPU: 16x AMD Ryzen 7 5800X 8-Core Processor 
-[15:05:42] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 5070/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 591.44)
-[15:05:42] [Render thread/INFO]: OS: Windows 11 (10.0)
-[15:05:43] [Render thread/INFO]: Reloading ResourceManager: create:dynamic_data, vanilla, fabric (appleskin, cloth-config, create, createaddition, distanthorizons, dripstone_fluid_lib, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, flywheel, forgeconfigapiport, indium, iris, jade, jei, milk, ponder, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_brewing, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_gui_utils, porting_lib_lazy_registration, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_loader, porting_lib_model_materials, porting_lib_models, porting_lib_networking, porting_lib_obj_loader, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, reach-entity-attributes, registrate-fabric, sodium, team_reborn_energy, tectonic)
-[15:05:43] [Render thread/INFO]: Checking for Distant Horizons update
-[15:05:43] [Worker-Main-12/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
-[15:05:44] [Render thread/INFO]: Distant Horizons already up to date.
-[15:05:44] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[15:05:44] [Render thread/INFO]: Running Delayed setup...
-[15:05:44] [Render thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
-[15:05:44] [Render thread/INFO]: DH Ready, binding Iris event handlers...
-[15:05:44] [Render thread/INFO]: DH Iris events bound.
-[15:05:44] [Render thread/INFO]: Start loading plugin from Jade
-[15:05:45] [Render thread/INFO]: Start loading plugin from Jade
-[15:05:45] [Render thread/INFO]: Start loading plugin from Jade
-[15:05:45] [Render thread/INFO]: Registering Ponder Scenes took 351.8 ms
-[15:05:45] [Render thread/INFO]: Registering Ponder Tags took 17.68 ms
-[15:05:45] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
-[15:05:47] [Worker-Main-8/WARN]: Missing textures in model createaddition:small_light_connector#facing=up,mode=none,powered=false,rotation=y_clockwise_90,variant=girder:
+[15:23:35] [Render thread/INFO]: Distant Horizons, Version: 2.4.2-b
+[15:23:35] [Render thread/INFO]: Registering Fabric Client Events
+[15:23:35] [Render thread/INFO]: Registering Fabric Server Events
+[15:23:35] [Render thread/INFO]: Registered mod compatibility accessor for: [Sodium-Fabric].
+[15:23:35] [Render thread/INFO]: Skipping mod compatibility accessor for: [starlight]
+[15:23:35] [Render thread/INFO]: Skipping mod compatibility accessor for: [optifine]
+[15:23:35] [Render thread/INFO]: Skipping mod compatibility accessor for: [bclib]
+[15:23:35] [Render thread/INFO]: Skipping mod compatibility accessor for: [c2me]
+[15:23:35] [Render thread/INFO]: Registered mod compatibility accessor for: [iris].
+[15:23:35] [Render thread/INFO]: Initialising config for [DistantHorizons]
+[15:23:35] [Render thread/INFO]: [DistantHorizons] Config initialised
+[15:23:36] [Render thread/INFO]: Applying config to loggers
+[15:23:36] [Render thread/INFO]: Distant Horizons client Initialized.
+[15:23:36] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[15:23:36] [Render thread/INFO]: Sending ConfigManager...
+[15:23:36] [Render thread/INFO]: Sending ConfigManager took 1.026 ms
+[15:23:36] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[15:23:36] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[15:23:36] [Render thread/INFO]: Queuing DH event binding...
+[15:23:36] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] Cached update file detected, using that!
+[15:23:36] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[15:23:36] [Render thread/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
+[15:23:37] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
+[15:23:37] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 5070/PCIe/SSE2
+[15:23:37] [Render thread/INFO]: OpenGL Version: 3.2.0 NVIDIA 591.44
+[15:23:37] [Render thread/INFO]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[15:23:37] [Render thread/INFO]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threadedcommand submission
+[15:23:37] [Render thread/INFO]: Debug functionality is disabled.
+[15:23:37] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[15:23:37] [Render thread/INFO]: Created 157 recipes which will be injected into the game
+[15:23:37] [Render thread/INFO]: Created 0 tags which will be injected into the game
+[15:23:37] [Render thread/INFO]: Hardware information:
+[15:23:37] [Render thread/INFO]: CPU: 16x AMD Ryzen 7 5800X 8-Core Processor 
+[15:23:37] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 5070/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 591.44)
+[15:23:37] [Render thread/INFO]: OS: Windows 11 (10.0)
+[15:23:38] [Render thread/INFO]: Reloading ResourceManager: create:dynamic_data, vanilla, fabric (appleskin, cloth-config, create, createaddition, distanthorizons, dripstone_fluid_lib, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, flywheel, forgeconfigapiport, indium, iris, jade, jei, milk, ponder, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_brewing, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_gui_utils, porting_lib_lazy_registration, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_loader, porting_lib_model_materials, porting_lib_models, porting_lib_networking, porting_lib_obj_loader, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, reach-entity-attributes, registrate-fabric, sodium, team_reborn_energy, tectonic)
+[15:23:38] [Render thread/INFO]: Checking for Distant Horizons update
+[15:23:38] [Worker-Main-3/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[15:23:39] [Render thread/INFO]: Distant Horizons already up to date.
+[15:23:39] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[15:23:39] [Render thread/INFO]: Running Delayed setup...
+[15:23:39] [Render thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[15:23:39] [Render thread/INFO]: DH Ready, binding Iris event handlers...
+[15:23:39] [Render thread/INFO]: DH Iris events bound.
+[15:23:39] [Render thread/INFO]: Start loading plugin from Jade
+[15:23:39] [Render thread/INFO]: Start loading plugin from Jade
+[15:23:39] [Render thread/INFO]: Start loading plugin from Jade
+[15:23:40] [Render thread/INFO]: Registering Ponder Scenes took 425.1 ms
+[15:23:40] [Render thread/INFO]: Registering Ponder Tags took 24.02 ms
+[15:23:40] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
+[15:23:42] [Worker-Main-6/WARN]: Missing textures in model createaddition:small_light_connector#facing=up,mode=none,powered=false,rotation=y_clockwise_90,variant=girder:
     minecraft:textures/atlas/blocks.png:create:block/chute_block
-[15:05:47] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
-[15:05:47] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[15:05:47] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Lautsprecher (High Definition Audio Device)
-[15:05:47] [Render thread/INFO]: Sound engine started
-[15:05:47] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[15:05:47] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[15:05:47] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[15:05:47] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[15:05:47] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[15:05:47] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[15:05:47] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[15:05:47] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[15:05:47] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[15:05:47] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[15:05:47] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[15:05:47] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[15:05:47] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[15:05:47] [Render thread/INFO]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
-[15:05:47] [Render thread/INFO]: Loaded 56 train hat configurations.
-[15:05:47] [Render thread/INFO]: Loaded 77 shader sources in 28.327 ms
-[15:06:50] [Render thread/INFO]: Created 157 recipes which will be injected into the game
-[15:06:50] [Render thread/INFO]: Created 0 tags which will be injected into the game
-[15:06:50] [Render thread/INFO]: Found new data pack tectonic/tectonic/overlay.mod, loading it automatically
-[15:06:50] [Render thread/INFO]: Found new data pack tectonic/tectonic/overlay.terratonic, loading it automatically
-[15:06:50] [Render thread/INFO]: Found new data pack create:dynamic_data, loading it automatically
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/exposed_cut_copper recipe (createaddition:charging/exposed_cut_copper) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/cut_copper_block recipe (createaddition:charging/cut_copper_block) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/exposed_cut_copper_slab recipe (createaddition:charging/exposed_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/channeling recipe (createaddition:charging/channeling) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/weathered_copper_shingles recipe (createaddition:charging/weathered_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/weathered_copper_shingle_stairs recipe (createaddition:charging/weathered_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/cut_copper_slab recipe (createaddition:charging/cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/weathered_cut_copper_stairs recipe (createaddition:charging/weathered_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/exposed_copper recipe (createaddition:charging/exposed_copper) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/leaded_concrete
-com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete'
-	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[client-intermediary.jar:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1856.method_8107(class_1856.java:160) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1856.method_52177(class_1856.java:135) ~[client-intermediary.jar:?]
-	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:67) ~[create-fabric-6.0.8.1+build.1744-mc1.20.1.jar:?]
-	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:155) ~[create-fabric-6.0.8.1+build.1744-mc1.20.1.jar:?]
-	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.method_8121(ProcessingRecipeSerializer.java:22) ~[create-fabric-6.0.8.1+build.1744-mc1.20.1.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[client-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[client-intermediary.jar:?]
-	at net.minecraft.class_525.method_31130(class_525.java:352) ~[client-intermediary.jar:?]
-	at net.minecraft.class_526.method_19944(class_526.java:60) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4185.method_25306(class_4185.java:94) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4264.method_25348(class_4264.java:56) ~[client-intermediary.jar:?]
-	at net.minecraft.class_339.method_25402(class_339.java:189) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4069.method_25402(class_4069.java:38) ~[client-intermediary.jar:?]
-	at net.minecraft.class_312.method_1611(class_312.java:98) ~[client-intermediary.jar:?]
-	at net.minecraft.class_437.method_25412(class_437.java:409) ~[client-intermediary.jar:?]
-	at net.minecraft.class_312.method_1601(class_312.java:98) ~[client-intermediary.jar:?]
-	at net.minecraft.class_312.method_22686(class_312.java:169) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.execute(class_1255.java:102) ~[client-intermediary.jar:?]
-	at net.minecraft.class_312.method_22684(class_312.java:169) ~[client-intermediary.jar:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:?]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1523(class_310.java:1244) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.18.3-1.20.1.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.18.3.jar:?]
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/exposed_cut_copper_stairs recipe (createaddition:charging/exposed_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/reinforced_blast_brick
-com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:blastbrick'
-	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[client-intermediary.jar:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1856.method_8107(class_1856.java:160) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1856.method_52177(class_1856.java:135) ~[client-intermediary.jar:?]
-	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:67) ~[create-fabric-6.0.8.1+build.1744-mc1.20.1.jar:?]
-	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:155) ~[create-fabric-6.0.8.1+build.1744-mc1.20.1.jar:?]
-	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.method_8121(ProcessingRecipeSerializer.java:22) ~[create-fabric-6.0.8.1+build.1744-mc1.20.1.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[client-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[client-intermediary.jar:?]
-	at net.minecraft.class_525.method_31130(class_525.java:352) ~[client-intermediary.jar:?]
-	at net.minecraft.class_526.method_19944(class_526.java:60) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4185.method_25306(class_4185.java:94) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4264.method_25348(class_4264.java:56) ~[client-intermediary.jar:?]
-	at net.minecraft.class_339.method_25402(class_339.java:189) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4069.method_25402(class_4069.java:38) ~[client-intermediary.jar:?]
-	at net.minecraft.class_312.method_1611(class_312.java:98) ~[client-intermediary.jar:?]
-	at net.minecraft.class_437.method_25412(class_437.java:409) ~[client-intermediary.jar:?]
-	at net.minecraft.class_312.method_1601(class_312.java:98) ~[client-intermediary.jar:?]
-	at net.minecraft.class_312.method_22686(class_312.java:169) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.execute(class_1255.java:102) ~[client-intermediary.jar:?]
-	at net.minecraft.class_312.method_22684(class_312.java:169) ~[client-intermediary.jar:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:?]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1523(class_310.java:1244) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.18.3-1.20.1.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.18.3.jar:?]
-[15:06:52] [Render thread/WARN]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/copper_shingle_stairs recipe (createaddition:charging/copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/exposed_copper_shingles recipe (createaddition:charging/exposed_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/weathered_cut_copper recipe (createaddition:charging/weathered_cut_copper) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/cut_copper_stairs recipe (createaddition:charging/cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/copper_shingles recipe (createaddition:charging/copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/copper_block recipe (createaddition:charging/copper_block) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/copper_shingle_slab recipe (createaddition:charging/copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/weathered_cut_copper_slab recipe (createaddition:charging/weathered_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/weathered_copper_shingle_slab recipe (createaddition:charging/weathered_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/exposed_copper_shingle_slab recipe (createaddition:charging/exposed_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/weathered_copper recipe (createaddition:charging/weathered_copper) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/WARN]: Your custom createaddition:charging/exposed_copper_shingle_stairs recipe (createaddition:charging/exposed_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[15:06:52] [Render thread/INFO]: Loaded 25 recipes
-[15:06:52] [Render thread/INFO]: Loaded 2421 advancements
-[15:06:59] [Render thread/INFO]: Created 157 recipes which will be injected into the game
-[15:06:59] [Render thread/INFO]: Created 0 tags which will be injected into the game
-[15:06:59] [Render thread/INFO]: Stopping JEI
-[15:06:59] [Render thread/INFO]: Stopping JEI
-[15:06:59] [Render thread/INFO]: Sending Runtime Unavailable...
-[15:06:59] [Render thread/INFO]: Stopping JEI GUI
-[15:06:59] [Render thread/INFO]: Sending Runtime Unavailable took 365.9 ?s
-[15:06:59] [Render thread/INFO]: Applied 299 biome modifications to 152 of 163 new biomes in 21.97 ms
-[15:06:59] [Server thread/INFO]: Started DhWorld of type CLIENT_SERVER
-[15:06:59] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
-[15:06:59] [Server thread/INFO]: Generating keypair
-[15:07:00] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data\DistantHorizons.sqlite]
-[15:07:00] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data\DistantHorizons.sqlite]
-[15:07:00] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data\DistantHorizons.sqlite]
-[15:07:00] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data\DistantHorizons.sqlite]
-[15:07:00] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data\DistantHorizons.sqlite]
-[15:07:00] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data\DistantHorizons.sqlite]
-[15:07:00] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data\DistantHorizons.sqlite]
-[15:07:00] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data\DistantHorizons.sqlite]
-[15:07:00] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data\DistantHorizons.sqlite]
-[15:07:00] [Server thread/INFO]: Running SQL update script: [sqlScripts/0090-sqlite-addAdjacentFullDataColumns.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data\DistantHorizons.sqlite]
-[15:07:00] [Server thread/INFO]: Started DhClientServerLevel for [Wrapped{ServerLevel[New World]@minecraft:overworld}] at [[LocalSaveStructure@(C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data)]].
-[15:07:00] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM-1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM-1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM-1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM-1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM-1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM-1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM-1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM-1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM-1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0090-sqlite-addAdjacentFullDataColumns.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM-1\data\DistantHorizons.sqlite]
-[15:07:06] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[15:07:06] [Server thread/INFO]: Started DhClientServerLevel for [Wrapped{ServerLevel[New World]@minecraft:the_nether}] at [[LocalSaveStructure@(C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data;C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM-1\data)]].
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM1\data\DistantHorizons.sqlite]
-[15:07:06] [Server thread/INFO]: Running SQL update script: [sqlScripts/0090-sqlite-addAdjacentFullDataColumns.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM1\data\DistantHorizons.sqlite]
-[15:07:06] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[15:07:06] [Server thread/INFO]: Started DhClientServerLevel for [Wrapped{ServerLevel[New World]@minecraft:the_end}] at [[LocalSaveStructure@(C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data;C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM1\data;C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM-1\data)]].
-[15:07:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:07:07] [Render thread/INFO]: Preparing spawn area: 0%
-[15:07:07] [Render thread/INFO]: Preparing spawn area: 0%
-[15:07:07] [Render thread/INFO]: Preparing spawn area: 0%
-[15:07:08] [Render thread/INFO]: Preparing spawn area: 0%
-[15:07:08] [Render thread/INFO]: Preparing spawn area: 0%
-[15:07:09] [Render thread/INFO]: Preparing spawn area: 0%
-[15:07:09] [Render thread/INFO]: Preparing spawn area: 0%
-[15:07:10] [Render thread/INFO]: Preparing spawn area: 1%
-[15:07:10] [Render thread/INFO]: Preparing spawn area: 1%
-[15:07:11] [Render thread/INFO]: Preparing spawn area: 3%
-[15:07:11] [Render thread/INFO]: Preparing spawn area: 3%
-[15:07:12] [Render thread/INFO]: Preparing spawn area: 4%
-[15:07:12] [Render thread/INFO]: Preparing spawn area: 4%
-[15:07:13] [Render thread/INFO]: Preparing spawn area: 4%
-[15:07:13] [Render thread/INFO]: Preparing spawn area: 6%
-[15:07:14] [Render thread/INFO]: Preparing spawn area: 7%
-[15:07:14] [Render thread/INFO]: Preparing spawn area: 9%
-[15:07:15] [Render thread/INFO]: Preparing spawn area: 9%
-[15:07:16] [Render thread/INFO]: Preparing spawn area: 11%
-[15:07:16] [Render thread/INFO]: Preparing spawn area: 11%
-[15:07:16] [Render thread/INFO]: Preparing spawn area: 13%
-[15:07:17] [Render thread/INFO]: Preparing spawn area: 13%
-[15:07:17] [Render thread/INFO]: Preparing spawn area: 15%
-[15:07:18] [Render thread/INFO]: Preparing spawn area: 16%
-[15:07:18] [Render thread/INFO]: Preparing spawn area: 17%
-[15:07:19] [Render thread/INFO]: Preparing spawn area: 19%
-[15:07:19] [Render thread/INFO]: Preparing spawn area: 20%
-[15:07:20] [Render thread/INFO]: Preparing spawn area: 23%
-[15:07:21] [Render thread/INFO]: Preparing spawn area: 23%
-[15:07:21] [Render thread/INFO]: Preparing spawn area: 23%
-[15:07:21] [Render thread/INFO]: Preparing spawn area: 24%
-[15:07:22] [Render thread/INFO]: Preparing spawn area: 25%
-[15:07:22] [Render thread/INFO]: Preparing spawn area: 27%
-[15:07:23] [Render thread/INFO]: Preparing spawn area: 30%
-[15:07:23] [Render thread/INFO]: Preparing spawn area: 31%
-[15:07:24] [Render thread/INFO]: Preparing spawn area: 34%
-[15:07:24] [Render thread/INFO]: Preparing spawn area: 34%
-[15:07:25] [Render thread/INFO]: Preparing spawn area: 35%
-[15:07:25] [Render thread/INFO]: Preparing spawn area: 37%
-[15:07:26] [Render thread/INFO]: Preparing spawn area: 40%
-[15:07:26] [Render thread/INFO]: Preparing spawn area: 42%
-[15:07:27] [Render thread/INFO]: Preparing spawn area: 43%
-[15:07:27] [Render thread/INFO]: Preparing spawn area: 45%
-[15:07:28] [Render thread/INFO]: Preparing spawn area: 45%
-[15:07:28] [Render thread/INFO]: Preparing spawn area: 47%
-[15:07:29] [Render thread/INFO]: Preparing spawn area: 48%
-[15:07:37] [Render thread/INFO]: Preparing spawn area: 49%
-[15:07:37] [Render thread/INFO]: Preparing spawn area: 49%
-[15:07:37] [Render thread/INFO]: Preparing spawn area: 49%
-[15:07:37] [Render thread/INFO]: Preparing spawn area: 49%
-[15:07:37] [Render thread/INFO]: Preparing spawn area: 49%
-[15:07:37] [Render thread/INFO]: Preparing spawn area: 49%
-[15:07:38] [Render thread/INFO]: Preparing spawn area: 49%
-[15:07:38] [Render thread/INFO]: Preparing spawn area: 49%
-[15:07:38] [Render thread/INFO]: Preparing spawn area: 49%
-[15:07:38] [Render thread/INFO]: Preparing spawn area: 50%
-[15:07:38] [Render thread/INFO]: Preparing spawn area: 50%
-[15:07:38] [Render thread/INFO]: Preparing spawn area: 50%
-[15:07:38] [Render thread/INFO]: Preparing spawn area: 50%
-[15:07:38] [Render thread/INFO]: Preparing spawn area: 50%
-[15:07:38] [Render thread/INFO]: Preparing spawn area: 50%
-[15:07:38] [Render thread/INFO]: Preparing spawn area: 50%
-[15:07:38] [Render thread/INFO]: Preparing spawn area: 50%
-[15:07:38] [Render thread/INFO]: Preparing spawn area: 50%
-[15:07:38] [Render thread/INFO]: Preparing spawn area: 51%
-[15:07:39] [Render thread/INFO]: Preparing spawn area: 54%
-[15:07:39] [Render thread/INFO]: Preparing spawn area: 56%
-[15:07:40] [Render thread/INFO]: Preparing spawn area: 56%
-[15:07:40] [Render thread/INFO]: Preparing spawn area: 58%
-[15:07:41] [Render thread/INFO]: Preparing spawn area: 60%
-[15:07:41] [Render thread/INFO]: Preparing spawn area: 61%
-[15:07:42] [Render thread/INFO]: Preparing spawn area: 63%
-[15:07:42] [Render thread/INFO]: Preparing spawn area: 65%
-[15:07:43] [Render thread/INFO]: Preparing spawn area: 68%
-[15:07:43] [Render thread/INFO]: Preparing spawn area: 69%
-[15:07:44] [Render thread/INFO]: Preparing spawn area: 69%
-[15:07:44] [Render thread/INFO]: Preparing spawn area: 71%
-[15:07:45] [Render thread/INFO]: Preparing spawn area: 73%
-[15:07:45] [Render thread/INFO]: Preparing spawn area: 75%
-[15:07:46] [Render thread/INFO]: Preparing spawn area: 77%
-[15:07:46] [Render thread/INFO]: Preparing spawn area: 79%
-[15:07:47] [Render thread/INFO]: Preparing spawn area: 82%
-[15:07:47] [Render thread/INFO]: Preparing spawn area: 83%
-[15:07:48] [Render thread/INFO]: Preparing spawn area: 84%
-[15:07:48] [Render thread/INFO]: Preparing spawn area: 85%
-[15:07:49] [Render thread/INFO]: Preparing spawn area: 86%
-[15:07:49] [Render thread/INFO]: Preparing spawn area: 88%
-[15:07:50] [Render thread/INFO]: Preparing spawn area: 89%
-[15:07:50] [Render thread/INFO]: Preparing spawn area: 91%
-[15:07:51] [Render thread/INFO]: Preparing spawn area: 93%
-[15:07:51] [Render thread/INFO]: Preparing spawn area: 95%
-[15:07:52] [Render thread/INFO]: Preparing spawn area: 98%
-[15:07:52] [Render thread/INFO]: Time elapsed: 45835 ms
-[15:07:52] [Server thread/INFO]: Changing view distance to 12, from 10
-[15:07:52] [Server thread/INFO]: Changing simulation distance to 12, from 0
-[15:07:53] [Server thread/INFO]: einmalmaikii[local:E:1447d3f1] logged in with entity id 110 at (23.5, 122.0, -54.5)
-[15:07:53] [Server thread/INFO]: Syncing config to einmalmaikii (c8eaee60-e20e-4a2b-b67b-1e04c3eabd10)
-[15:07:53] [Server thread/INFO]: Player [einmalmaikii] joined.
-[15:07:53] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@hr1paa5gtl584@minecraft:overworld}]-[hr1paa5gtl584@minecraft:overworld].
-[15:07:53] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Batch Chunk Generator initialized
-[15:07:53] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Creating world gen queue
-[15:07:53] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Created world gen queue
-[15:07:53] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Set world gen queue for level [minecraft:overworld].
-[15:07:53] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
-[15:07:53] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
-[15:07:53] [Render thread/INFO]: Destroying pipeline minecraft:overworld
-[15:07:53] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[15:07:53] [Server thread/INFO]: einmalmaikii joined the game
-[15:07:53] [Render thread/INFO]: Started 10 worker threads
-[15:07:53] [Render thread/INFO]: Started 10 worker threads
-[15:07:54] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@hr1paa5gtl584@minecraft:overworld}]-[hr1paa5gtl584@minecraft:overworld].
-[15:07:54] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
-[15:07:54] [Render thread/INFO]: Received config from the server: 
-[15:07:54] [Render thread/INFO]: Starting JEI...
-[15:07:54] [Render thread/INFO]: Registering item subtypes...
-[15:07:54] [Render thread/INFO]: Registering item subtypes: jei:minecraft took 12.84 milliseconds
-[15:07:54] [Render thread/INFO]: Registering item subtypes took 14.39 ms
-[15:07:54] [Render thread/INFO]: Registering fluid subtypes...
-[15:07:54] [Render thread/INFO]: Registering fluid subtypes took 6.051 ms
-[15:07:54] [Render thread/INFO]: Registering ingredients...
-[15:07:54] [Render thread/WARN]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
-[15:07:54] [Render thread/INFO]: Registering ingredients: jei:minecraft took 162.9 milliseconds
-[15:07:54] [Render thread/INFO]: Registering ingredients took 163.9 ms
-[15:07:54] [Render thread/INFO]: Registering extra ingredients...
-[15:07:54] [Render thread/INFO]: Registering extra ingredients took 7.142 ms
-[15:07:54] [Render thread/INFO]: Registering search ingredient aliases...
-[15:07:54] [Render thread/INFO]: Registering search ingredient aliases took 705.3 ?s
-[15:07:54] [Render thread/INFO]: Registering categories...
-[15:07:54] [Render thread/INFO]: Registering categories: jei:minecraft took 11.53 milliseconds
-[15:07:54] [Render thread/INFO]: Registering categories: create:jei_plugin took 33.71 milliseconds
-[15:07:54] [Render thread/INFO]: Registering categories took 50.87 ms
-[15:07:54] [Render thread/INFO]: Registering vanilla category extensions...
-[15:07:54] [Render thread/INFO]: Registering vanilla category extensions took 2.264 ms
-[15:07:54] [Render thread/INFO]: Registering recipe catalysts...
-[15:07:54] [Render thread/INFO]: Registering recipe catalysts took 2.713 ms
-[15:07:54] [Render thread/INFO]: Building recipe registry...
-[15:07:54] [Render thread/INFO]: Building recipe registry took 32.16 ms
-[15:07:54] [Render thread/INFO]: Registering advanced plugins...
-[15:07:54] [Render thread/INFO]: Registering advanced plugins took 489.2 ?s
-[15:07:54] [Render thread/INFO]: Registering recipes...
-[15:07:55] [Render thread/INFO]: Registering recipes: jei:minecraft took 377.6 milliseconds
-[15:07:55] [Render thread/INFO]: Ingredients are being removed at runtime: 4 mezz.jei.api.fabric.ingredients.fluids.IJeiFluidIngredient
-[15:07:55] [Render thread/INFO]: Registering recipes: create:jei_plugin took 246.0 milliseconds
-[15:07:55] [Render thread/INFO]: Registering recipes took 627.4 ms
-[15:07:55] [Render thread/INFO]: Registering recipes transfer handlers...
-[15:07:55] [Render thread/INFO]: Registering recipes transfer handlers took 9.848 ms
-[15:07:55] [Render thread/INFO]: Building runtime...
-[15:07:55] [Render thread/INFO]: Registering gui handlers...
-[15:07:55] [Render thread/INFO]: Registering gui handlers: jei:gui took 12.77 milliseconds
-[15:07:55] [Render thread/INFO]: Registering gui handlers took 20.25 ms
-[15:07:55] [Render thread/INFO]: Registering Runtime...
-[15:07:55] [Render thread/INFO]: Starting JEI GUI
-[15:07:55] [Render thread/INFO]: Building ingredient list...
-[15:07:55] [Render thread/INFO]: Building ingredient list took 40.53 ms
-[15:07:55] [Render thread/INFO]: Building ingredient filter...
-[15:07:55] [Render thread/INFO]: Adding 2292 ingredients
-[15:07:55] [Render thread/INFO]: Added 2292 ingredients
-[15:07:55] [Render thread/INFO]: Building ingredient filter took 423.4 ms
-[15:07:56] [Render thread/INFO]: Registering Runtime: jei:fabric_gui took 629.9 milliseconds
-[15:07:56] [Render thread/INFO]: Registering Runtime took 630.7 ms
-[15:07:56] [Render thread/INFO]: Building runtime took 666.4 ms
-[15:07:56] [Render thread/INFO]: Sending Runtime...
-[15:07:56] [Render thread/INFO]: Sending Runtime took 394.2 ?s
-[15:07:56] [Render thread/INFO]: Starting JEI took 1.674 s
-[15:07:56] [Render thread/INFO]: Loaded 2 advancements
-[15:07:56] [Render thread/INFO]: Creating GLProxy... If this is the last message you see there must have been an OpenGL error.
-[15:07:56] [Render thread/INFO]: Lod Render OpenGL version [3.2.0 NVIDIA 591.44].
-[15:07:56] [Render thread/INFO]: minecraftGlCapabilities:
+[15:23:42] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[15:23:42] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15:23:43] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Lautsprecher (High Definition Audio Device)
+[15:23:43] [Render thread/INFO]: Sound engine started
+[15:23:43] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[15:23:43] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[15:23:43] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:23:43] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:23:43] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[15:23:43] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[15:23:43] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[15:23:43] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15:23:43] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:23:43] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[15:23:43] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[15:23:43] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15:23:43] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15:23:43] [Render thread/INFO]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[15:23:43] [Render thread/INFO]: Loaded 56 train hat configurations.
+[15:23:43] [Render thread/INFO]: Loaded 77 shader sources in 26.830 ms
+[15:26:51] [Render thread/INFO]: Stopping JEI
+[15:26:51] [Render thread/INFO]: Stopping JEI
+[15:26:51] [Render thread/INFO]: Sending Runtime Unavailable...
+[15:26:51] [Render thread/INFO]: Stopping JEI GUI
+[15:26:51] [Render thread/INFO]: Sending Runtime Unavailable took 284.6 ?s
+[15:26:51] [Render thread/INFO]: Connecting to minecraft.mauntingstudios.de, 25565
+[15:26:52] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@gbkabr6pv07hs@minecraft:overworld}]-[gbkabr6pv07hs@minecraft:overworld].
+[15:26:52] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[15:26:52] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[15:26:52] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[15:26:53] [Render thread/INFO]: Started 10 worker threads
+[15:26:53] [Render thread/INFO]: Started 10 worker threads
+[15:26:53] [Render thread/INFO]: Client on ClientOnly mode connecting.
+[15:26:53] [Render thread/INFO]: Started DhWorld of type CLIENT_ONLY
+[15:26:53] [Render thread/INFO]: Loading [1] waiting client level wrappers.
+[15:26:53] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@gbkabr6pv07hs@minecraft:overworld}]-[gbkabr6pv07hs@minecraft:overworld].
+[15:26:53] [Render thread/WARN]: unable to create data folder.
+[15:26:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld\DistantHorizons.sqlite]
+[15:26:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld\DistantHorizons.sqlite]
+[15:26:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld\DistantHorizons.sqlite]
+[15:26:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld\DistantHorizons.sqlite]
+[15:26:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld\DistantHorizons.sqlite]
+[15:26:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld\DistantHorizons.sqlite]
+[15:26:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld\DistantHorizons.sqlite]
+[15:26:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld\DistantHorizons.sqlite]
+[15:26:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld\DistantHorizons.sqlite]
+[15:26:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0090-sqlite-addAdjacentFullDataColumns.sql], for repo: [C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld\DistantHorizons.sqlite]
+[15:26:53] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[15:26:53] [Render thread/INFO]: Started DHLevel for Wrapped{ClientLevel@gbkabr6pv07hs@minecraft:overworld} with saves at [ClientOnlySaveStructure@(C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld)]
+[15:26:53] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/cut_copper_slab recipe (createaddition:charging/cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/weathered_cut_copper_stairs recipe (createaddition:charging/weathered_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/copper_shingle_slab recipe (createaddition:charging/copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/exposed_copper_shingle_stairs recipe (createaddition:charging/exposed_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/exposed_copper_shingle_slab recipe (createaddition:charging/exposed_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/copper_shingles recipe (createaddition:charging/copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/exposed_cut_copper recipe (createaddition:charging/exposed_cut_copper) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/exposed_copper recipe (createaddition:charging/exposed_copper) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/weathered_cut_copper_slab recipe (createaddition:charging/weathered_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/exposed_cut_copper_stairs recipe (createaddition:charging/exposed_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/weathered_copper recipe (createaddition:charging/weathered_copper) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/cut_copper_block recipe (createaddition:charging/cut_copper_block) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/weathered_cut_copper recipe (createaddition:charging/weathered_cut_copper) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/weathered_copper_shingles recipe (createaddition:charging/weathered_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/weathered_copper_shingle_stairs recipe (createaddition:charging/weathered_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/exposed_copper_shingles recipe (createaddition:charging/exposed_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/cut_copper_stairs recipe (createaddition:charging/cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/channeling recipe (createaddition:charging/channeling) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/copper_block recipe (createaddition:charging/copper_block) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/weathered_copper_shingle_slab recipe (createaddition:charging/weathered_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/copper_shingle_stairs recipe (createaddition:charging/copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Netty Client IO #1/WARN]: Your custom createaddition:charging/exposed_cut_copper_slab recipe (createaddition:charging/exposed_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[15:26:53] [Render thread/INFO]: Stopping worker threads
+[15:26:53] [Render thread/INFO]: Started 10 worker threads
+[15:26:53] [Render thread/INFO]: Creating GLProxy... If this is the last message you see there must have been an OpenGL error.
+[15:26:53] [Render thread/INFO]: Lod Render OpenGL version [3.2.0 NVIDIA 591.44].
+[15:26:53] [Render thread/INFO]: minecraftGlCapabilities:
 Your OpenGL support:
 openGL version 3.2+: [true] <- REQUIRED
 Vertex Attribute Buffer Binding: [true] <- optional improvement
 Buffer Storage: [true] <- optional improvement
 
-[15:07:56] [Render thread/INFO]: GPU Vendor [NVIDIA CORPORATION] with OS [Windows], Preferred upload method is [BUFFER_STORAGE].
-[15:07:56] [Render thread/INFO]: GLProxy creation successful. OpenGL smiles upon you this day.
-[15:07:56] [Render thread/INFO]: Setting up renderer
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35633]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35632]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 16
-[15:07:56] [Render thread/INFO]: Renderer setup complete
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35633]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35632]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35633]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35632]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35633]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35632]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35633]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35632]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 8
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35633]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35632]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35633]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35632]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35633]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35632]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35633]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35632]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35633]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35632]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35633]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:56] [Render thread/INFO]: Loading shader with type: [35632]
-[15:07:56] [Render thread/INFO]: Shader loaded sucessfully.
-[15:07:57] [Render thread/INFO]: [System] [CHAT] Hello, thank you for downloading Terralith!\n\n- Stardust Labs Discord (for Terralith)\n- Bisect Hosting (our server hosting partner)\n- Disable this message (mod/datapack)\n 
-[15:07:58] [Server thread/INFO]: Saving and pausing game...
-[15:07:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:07:59] [DH-World Gen Thread[6]/INFO]: WorldGen requiring [minecraft:structure_starts] is outside the expected range. Returning EMPTY chunk.
-[15:08:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[15:08:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[15:08:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3433ms or 68 ticks behind
-[15:08:13] [Server thread/INFO]: Saving and pausing game...
-[15:08:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:08:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[15:08:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[15:08:14] [Netty Server IO #1/INFO]: Player [einmalmaikii] disconnected.
-[15:08:14] [Render thread/INFO]: Client on ClientOnly mode disconnecting.
-[15:08:14] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Closing world gen queue
-[15:08:14] [level shutdown/INFO]: Shutting down ClientRenderState
-[15:08:14] [level shutdown/INFO]: Shutting down LodQuadTree...
-[15:08:14] [level shutdown/INFO]: Closed DHLevel for [Wrapped{ServerLevel[New World]@minecraft:the_nether}].
-[15:08:14] [level shutdown/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[New World]@minecraft:the_nether}
-[15:08:14] [level shutdown/INFO]: Closed DHLevel for [Wrapped{ServerLevel[New World]@minecraft:the_end}].
-[15:08:14] [level shutdown/INFO]: Finished shutting down LodQuadTree
-[15:08:14] [level shutdown/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[New World]@minecraft:the_end}
-[15:08:14] [level shutdown/INFO]: Closed DHLevel for [Wrapped{ServerLevel[New World]@minecraft:overworld}].
-[15:08:14] [level shutdown/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[New World]@minecraft:overworld}
-[15:08:14] [Render thread/INFO]: Closed DhWorld of type [CLIENT_SERVER].
-[15:08:14] [level shutdown/INFO]: Closed DHLevel for [Wrapped{ServerLevel[New World]@minecraft:overworld}].
-[15:08:14] [level shutdown/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[New World]@minecraft:overworld}
-[15:08:14] [level shutdown/INFO]: Closed DHLevel for [Wrapped{ServerLevel[New World]@minecraft:the_nether}].
-[15:08:14] [level shutdown/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[New World]@minecraft:the_nether}
-[15:08:14] [level shutdown/INFO]: Closed DHLevel for [Wrapped{ServerLevel[New World]@minecraft:the_end}].
-[15:08:14] [level shutdown/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[New World]@minecraft:the_end}
-[15:08:14] [Render thread/INFO]: Closed DhWorld of type [CLIENT_SERVER].
-[15:08:14] [Render thread/INFO]: Shutting down PriorityTaskPicker thread pool...
-[15:08:14] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Closing WorldGenerationQueue...
-[15:08:14] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Shutting down world generator thread pool...
-[15:08:14] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: World generator thread pool shutdown with [1] incomplete tasks.
-[15:08:14] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: [BatchGenerator] shutting down...
-[15:08:14] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Closing [BatchGenerationEnvironment]
-[15:08:14] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Finished closing WorldGenerationQueue
-[15:08:16] [Render thread/INFO]: Closing all [3] database connections...
-[15:08:16] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\data\DistantHorizons.sqlite]
-[15:08:16] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM-1\data\DistantHorizons.sqlite]
-[15:08:16] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\saves\New World (3)\DIM1\data\DistantHorizons.sqlite]
-[15:08:16] [Render thread/INFO]: Stopping JEI
-[15:08:16] [Render thread/INFO]: Stopping JEI
-[15:08:16] [Render thread/INFO]: Sending Runtime Unavailable...
-[15:08:16] [Render thread/INFO]: Stopping JEI GUI
-[15:08:16] [Render thread/INFO]: Sending Runtime Unavailable took 291.5 ?s
-[15:08:16] [Server thread/INFO]: einmalmaikii lost connection: Disconnected
-[15:08:16] [Server thread/INFO]: einmalmaikii left the game
-[15:08:16] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[15:08:16] [Server thread/INFO]: Stopping server
-[15:08:16] [Server thread/INFO]: Saving players
-[15:08:16] [Server thread/INFO]: Saving worlds
-[15:08:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:08:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[15:08:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[15:08:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World (3)): All chunks are saved
-[15:08:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:08:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:08:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:08:18] [Render thread/INFO]: Unloading client level [ClientLevelWrapper]-[hr1paa5gtl584@minecraft:overworld].
-[15:08:18] [Render thread/INFO]: Stopping worker threads
-[15:08:20] [Render thread/INFO]: Stopping!
-[15:08:20] [Render thread/INFO]: Stopping JEI
-[15:08:20] [Render thread/INFO]: Stopping JEI
-[15:08:20] [Render thread/INFO]: Sending Runtime Unavailable...
-[15:08:20] [Render thread/INFO]: Stopping JEI GUI
-[15:08:20] [Render thread/INFO]: Sending Runtime Unavailable took 262.3 ?s
+[15:26:53] [Render thread/INFO]: GPU Vendor [NVIDIA CORPORATION] with OS [Windows], Preferred upload method is [BUFFER_STORAGE].
+[15:26:53] [Render thread/INFO]: GLProxy creation successful. OpenGL smiles upon you this day.
+[15:26:53] [Render thread/INFO]: Setting up renderer
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35633]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35632]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 16
+[15:26:53] [Render thread/INFO]: Renderer setup complete
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35633]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35632]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35633]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35632]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35633]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35632]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35633]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35632]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 8
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35633]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35632]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35633]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35632]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35633]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35632]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35633]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35632]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35633]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35632]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35633]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:53] [Render thread/INFO]: Loading shader with type: [35632]
+[15:26:53] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:54] [Render thread/INFO]: Starting JEI...
+[15:26:54] [Render thread/INFO]: Registering item subtypes...
+[15:26:54] [Render thread/INFO]: Registering item subtypes took 10.63 ms
+[15:26:54] [Render thread/INFO]: Registering fluid subtypes...
+[15:26:54] [Render thread/INFO]: Registering fluid subtypes took 4.136 ms
+[15:26:54] [Render thread/INFO]: Registering ingredients...
+[15:26:54] [Render thread/WARN]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
+[15:26:54] [Render thread/INFO]: Registering ingredients: jei:minecraft took 134.6 milliseconds
+[15:26:54] [Render thread/INFO]: Registering ingredients took 135.5 ms
+[15:26:54] [Render thread/INFO]: Registering extra ingredients...
+[15:26:54] [Render thread/INFO]: Registering extra ingredients: create:jei_plugin took 11.16 milliseconds
+[15:26:54] [Render thread/INFO]: Registering extra ingredients took 12.03 ms
+[15:26:54] [Render thread/INFO]: Registering search ingredient aliases...
+[15:26:54] [Render thread/INFO]: Registering search ingredient aliases took 443.3 ?s
+[15:26:54] [Render thread/INFO]: Registering categories...
+[15:26:54] [Render thread/INFO]: Registering categories: jei:minecraft took 23.22 milliseconds
+[15:26:54] [Netty Client IO #1/INFO]: Server time offset: [-2826] ms
+[15:26:54] [Netty Client IO #1/INFO]: Server level key received: [gbkabr6pv07hs@minecraft:overworld].
+[15:26:54] [Netty Client IO #1/INFO]: Connection config has been changed: [SessionConfig{values={generation.enable=true, generation.maxRequestDistance=4096, generation.bounds.centerChunk.x=0, generation.bounds.centerChunk.z=0, generation.bounds.radiusInChunks=0, generation.requestRateLimit=20, realTimeUpdates.enable=true, realTimeUpdates.playerDistance=256, syncOnLoad.enable=true, syncOnLoad.maxRequestDistance=4096, syncOnLoad.rateLimit=50, common.playerBandwidthLimit=500}}].
+[15:26:54] [DH-Request Module Ticker [gbkabr6pv07hs@minecraft:overworld] Thread[0]/INFO]: Set world gen queue for level [gbkabr6pv07hs@minecraft:overworld].
+[15:26:54] [Render thread/INFO]: Registering categories: create:jei_plugin took 49.89 milliseconds
+[15:26:54] [Render thread/INFO]: Registering categories: createaddition:jei_plugin took 14.25 milliseconds
+[15:26:54] [Render thread/INFO]: Registering categories took 90.71 ms
+[15:26:54] [Render thread/INFO]: Registering vanilla category extensions...
+[15:26:54] [Render thread/INFO]: Registering vanilla category extensions took 7.538 ms
+[15:26:54] [Render thread/INFO]: Registering recipe catalysts...
+[15:26:54] [Render thread/INFO]: Registering recipe catalysts took 6.067 ms
+[15:26:54] [Render thread/INFO]: Building recipe registry...
+[15:26:54] [Render thread/INFO]: Building recipe registry took 26.69 ms
+[15:26:54] [Render thread/INFO]: Registering advanced plugins...
+[15:26:54] [Render thread/INFO]: Registering advanced plugins took 255.4 ?s
+[15:26:54] [Render thread/INFO]: Registering recipes...
+[15:26:54] [Render thread/INFO]: Registering recipes: jei:minecraft took 313.9 milliseconds
+[15:26:55] [Render thread/INFO]: Ingredients are being removed at runtime: 4 mezz.jei.api.fabric.ingredients.fluids.IJeiFluidIngredient
+[15:26:55] [Render thread/INFO]: Registering recipes: create:jei_plugin took 202.5 milliseconds
+[15:26:55] [Render thread/INFO]: Registering recipes took 520.0 ms
+[15:26:55] [Render thread/INFO]: Registering recipes transfer handlers...
+[15:26:55] [Render thread/INFO]: Registering recipes transfer handlers took 8.366 ms
+[15:26:55] [Render thread/INFO]: Building runtime...
+[15:26:55] [Render thread/INFO]: Registering gui handlers...
+[15:26:55] [Render thread/INFO]: Registering gui handlers: jei:gui took 13.30 milliseconds
+[15:26:55] [Render thread/INFO]: Registering gui handlers took 24.14 ms
+[15:26:55] [Render thread/INFO]: Registering Runtime...
+[15:26:55] [Render thread/INFO]: Starting JEI GUI
+[15:26:55] [Render thread/INFO]: Building ingredient list...
+[15:26:55] [Render thread/INFO]: Building ingredient list took 34.28 ms
+[15:26:55] [Render thread/INFO]: Building ingredient filter...
+[15:26:55] [Render thread/INFO]: Adding 2258 ingredients
+[15:26:55] [Render thread/INFO]: Added 2258 ingredients
+[15:26:55] [Render thread/INFO]: Building ingredient filter took 322.1 ms
+[15:26:55] [Render thread/INFO]: Registering Runtime: jei:fabric_gui took 552.5 milliseconds
+[15:26:55] [Render thread/INFO]: Registering Runtime took 553.2 ms
+[15:26:55] [Render thread/INFO]: Building runtime took 598.4 ms
+[15:26:55] [Render thread/INFO]: Sending Runtime...
+[15:26:55] [Render thread/INFO]: Sending Runtime took 258.7 ?s
+[15:26:55] [Render thread/INFO]: Starting JEI took 1.502 s
+[15:26:56] [Render thread/INFO]: Loaded 2 advancements
+[15:26:57] [Render thread/INFO]: Unloading non-keyed level: [gbkabr6pv07hs@minecraft:overworld].
+[15:26:57] [Render thread/INFO]: Unloading client level [ClientLevelWrapper]-[gbkabr6pv07hs@minecraft:overworld].
+[15:26:57] [Render thread/INFO]: Unloading level DhClientLevel{gbkabr6pv07hs@minecraft:overworld}
+[15:26:57] [Render thread/INFO]: Shutting down ClientRenderState
+[15:26:57] [Render thread/INFO]: Shutting down LodQuadTree...
+[15:26:57] [Render thread/INFO]: Finished shutting down LodQuadTree
+[15:26:57] [Render thread/INFO]: Closed [DhClientLevel] for [Wrapped{ClientLevel@gbkabr6pv07hs@minecraft:overworld}]
+[15:26:57] [Render thread/INFO]: Loading level with key: [gbkabr6pv07hs@minecraft:overworld].
+[15:26:57] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@gbkabr6pv07hs@minecraft:overworld}]-[gbkabr6pv07hs@minecraft:overworld].
+[15:26:57] [Render thread/INFO]: Loading level [gbkabr6pv07hs@minecraft:overworld] with key: [gbkabr6pv07hs@minecraft:overworld].
+[15:26:57] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[15:26:57] [Render thread/INFO]: Started DHLevel for Wrapped{ClientLevel@gbkabr6pv07hs@minecraft:overworld} with saves at [ClientOnlySaveStructure@(C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld;C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld)]
+[15:26:57] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
+[15:26:57] [DH-Request Module Ticker [gbkabr6pv07hs@minecraft:overworld] Thread[0]/INFO]: Set world gen queue for level [gbkabr6pv07hs@minecraft:overworld].
+[15:26:57] [Render thread/INFO]: Loading shader with type: [35633]
+[15:26:57] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:57] [Render thread/INFO]: Loading shader with type: [35632]
+[15:26:57] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:57] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[15:26:57] [Render thread/INFO]: Loading shader with type: [35633]
+[15:26:57] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:57] [Render thread/INFO]: Loading shader with type: [35632]
+[15:26:57] [Render thread/INFO]: Shader loaded sucessfully.
+[15:26:57] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[15:27:19] [Render thread/INFO]: Loaded 7 advancements
+[15:27:30] [Render thread/INFO]: [System] [CHAT] [Server: Made einmalmaikii a server operator]
+[15:27:38] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[15:27:43] [Render thread/INFO]: Loaded 8 advancements
+[15:27:53] [Render thread/INFO]: Client on ClientOnly mode disconnecting.
+[15:27:53] [level shutdown/INFO]: Shutting down ClientRenderState
+[15:27:53] [level shutdown/INFO]: Shutting down LodQuadTree...
+[15:27:53] [level shutdown/INFO]: Finished shutting down LodQuadTree
+[15:27:53] [level shutdown/INFO]: Closed [DhClientLevel] for [Wrapped{ClientLevel@gbkabr6pv07hs@minecraft:overworld}]
+[15:27:53] [Render thread/INFO]: Closed DhWorld of type [CLIENT_ONLY].
+[15:27:53] [Render thread/INFO]: Closed DhWorld of type [CLIENT_ONLY].
+[15:27:53] [Render thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[15:27:53] [Render thread/INFO]: Closing all [2] database connections...
+[15:27:53] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:C:\Users\einma\curseforge\minecraft\Instances\Vault Hunters\Distant_Horizons_server_data\Minecraft+Server\gbkabr6pv07hs@minecraft@@overworld\DistantHorizons.sqlite]
+[15:27:53] [Render thread/INFO]: Stopping JEI
+[15:27:53] [Render thread/INFO]: Stopping JEI
+[15:27:53] [Render thread/INFO]: Sending Runtime Unavailable...
+[15:27:53] [Render thread/INFO]: Stopping JEI GUI
+[15:27:53] [Render thread/INFO]: Sending Runtime Unavailable took 297.0 ?s
+[15:27:53] [Render thread/INFO]: Unloading client level [ServerKeyedClientLevelWrapper]-[gbkabr6pv07hs@minecraft:overworld].
+[15:27:53] [Render thread/INFO]: Stopping worker threads
+[15:28:16] [Render thread/INFO]: Reloading ResourceManager: create:dynamic_data, vanilla, fabric (appleskin, cloth-config, create, createaddition, distanthorizons, dripstone_fluid_lib, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, flywheel, forgeconfigapiport, indium, iris, jade, jei, milk, ponder, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_brewing, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_gui_utils, porting_lib_lazy_registration, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_loader, porting_lib_model_materials, porting_lib_models, porting_lib_networking, porting_lib_obj_loader, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, reach-entity-attributes, registrate-fabric, sodium, team_reborn_energy, tectonic)
+[15:28:16] [Worker-Main-3/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[15:28:18] [Worker-Main-12/WARN]: Missing textures in model createaddition:small_light_connector#facing=up,mode=none,powered=false,rotation=y_clockwise_90,variant=girder:
+    minecraft:textures/atlas/blocks.png:create:block/chute_block
+[15:28:18] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[15:28:18] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15:28:18] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Lautsprecher (High Definition Audio Device)
+[15:28:18] [Render thread/INFO]: Sound engine started
+[15:28:18] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[15:28:18] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[15:28:18] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:28:18] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:28:18] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[15:28:18] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[15:28:18] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[15:28:18] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15:28:18] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:28:18] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[15:28:18] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[15:28:18] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15:28:18] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15:28:18] [Render thread/INFO]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[15:28:18] [Render thread/INFO]: Loaded 56 train hat configurations.
+[15:28:18] [Render thread/INFO]: Loaded 77 shader sources in 6.622 ms
+[15:28:24] [Render thread/INFO]: Stopping!
+[15:28:24] [Render thread/INFO]: Stopping JEI
+[15:28:24] [Render thread/INFO]: Stopping JEI
+[15:28:24] [Render thread/INFO]: Sending Runtime Unavailable...
+[15:28:24] [Render thread/INFO]: Stopping JEI GUI
+[15:28:24] [Render thread/INFO]: Sending Runtime Unavailable took 231.7 ?s
